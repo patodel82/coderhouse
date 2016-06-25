@@ -1,0 +1,84 @@
+body {background: white;}
+header {background: rgba(255,100,20,.10); border:10px dotted white}
+.noticia {background: rgba(255,100,20,.10); border:10px dotted blue}
+#home {background: black}
+.jodete {
+	background-color: green;
+	font-family: 'Tillana', cursive;
+	text-align: center;
+	text-shadow: 1px 1px 1px red;
+	line-height: 50px
+}
+.telefe {
+	display: block;
+	border-radius: 100%;
+	background-color:blue;
+}
+
+
+.telefe1 {
+	display: inline-block;
+	border-radius: 100%;
+	height: 100px;
+	width: 100px;
+	background-color:blue;
+	box-shadow: 1px 1px 1px 1px rgba (255,0,0,1)
+	transition: all 2s;
+}
+.telefe1:hover {
+	display: inline-block;
+	border-radius: 100%;
+	height: 100px;
+	width: 100px;
+	background-color:black;
+	position: fixed;
+
+
+}
+.telefe2 {
+	display: inline-block;
+	border-radius: 100%;
+	height: 100px;
+	width: 100px;
+	background-color:green;
+}
+.telefe2:hover {
+	display: inline-block;
+	border-radius: 100%;
+	height: 100px;
+	width: 100px;
+	background-color:green;
+	transform:scale(5);
+}
+
+.telefe3 {
+	display: inline-block;
+	border-radius: 100%;
+	height: 100px;
+	width: 100px;
+	background-color:red;
+}
+.telefe3:hover {
+	display: inline-block;
+	border-radius: 100%;
+	height: 100px;
+	width: 100px;
+	background-color:pink;
+	box-shadow: 3px 3px 3px 3px rgba(255,0,0)
+	animation mianima 5s;
+}
+
+.taxi {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f931+0,0d160c+100&1+0,0+100 */
+background: -moz-linear-gradient(top,  rgba(246,249,49,1) 0%, rgba(13,22,12,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(246,249,49,1) 0%,rgba(13,22,12,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(246,249,49,1) 0%,rgba(13,22,12,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f931', endColorstr='#000d160c',GradientType=0 ); /* IE6-9 */
+
+}
+
+@keyframes mianima {
+	from {} 
+	50% {border-radius: 0%;}
+	to {border-radius: 100%;}
+}
